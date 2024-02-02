@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    width: 100%;
+    border: 1px solid black;
+    grid-template-columns: 150px 100px 150px;
+    grid-template-rows: 200px;
+    justify-content: center;
+}
+
+.grid-item{
+    border: 1px solid green;
+    background-color: green;
+}
+.grid-items{
+    border: 1px solid white;
+    background-color: white;
+}

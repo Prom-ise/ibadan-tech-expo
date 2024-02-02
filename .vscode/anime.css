@@ -1,0 +1,26 @@
+body{
+    overflow-x: hidden;
+}
+@keyframes moveRight {
+    from{
+       transform: translateX(700px);
+    }
+    to{
+       transform: translateX(-4000px);
+    }
+}
+
+.cars{
+    animation-name: moveRight;
+    animation-duration: 30s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+}
+.hero{
+    background-image: url(img);
+    background-size: cover;
+    height: 400px;
+}
