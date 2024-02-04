@@ -217,8 +217,9 @@ body{
     background: #132351;
 }
 .footerNav a{
-    margin-right: 10px;
-    font-size: 18px;
+    position: relative;
+    right: -13%;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
@@ -295,6 +296,11 @@ body{
    .mediaPartnerSection,.communityPartnerSection {
         margin-top: 20px;
     }
+    .follow, .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -302,11 +308,5 @@ body{
     .rollingStar{
         margin-left: 130px;
         padding: 10px 0;
-    }
-}
-
-@meda(max-width:35) {
-    .StarImg{
-
     }
 }
