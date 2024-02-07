@@ -229,7 +229,7 @@ body{
 }
 @keyframes moving {
     0%{
-        transform: translate(1500px,0);
+        transform: translate(1200px,0);
     }
 
     100%{
