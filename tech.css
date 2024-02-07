@@ -211,7 +211,31 @@ body{
 .partnerSection,.mediaPartnerSection,.communityPartnerSection {
     margin-top: 90px;
 }
+.animates{
+    animation: move 10s linear infinite forwards;
+}
+@keyframes move {
+    0%{
+        transform: translate(1200px,0);
+    }
 
+    100%{
+        transform: translate(-1300px,0);
+    }
+}
+
+.animator{
+    animation: moving 20s linear infinite forwards;
+}
+@keyframes moving {
+    0%{
+        transform: translate(1500px,0);
+    }
+
+    100%{
+        transform: translate(-2400px,0);
+    }
+}
 
 .footer{
     background: #132351;
